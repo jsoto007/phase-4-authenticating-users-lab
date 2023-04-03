@@ -8,6 +8,4 @@ class UsersController < ApplicationController
       render json: {error => "Not authorized" }, status: :unatholized
     end 
   end 
-
-
 end
